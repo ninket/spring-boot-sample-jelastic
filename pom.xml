@@ -26,7 +26,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
-
+		<dependency>
+ 			<groupId>com.hazelcast</groupId>
+			<artifactId>hazelcast</artifactId>
+ 			<!-- Version is managed by Spring Boot starter -->
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
